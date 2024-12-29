@@ -1,0 +1,3 @@
+#!/bin/bash
+# 添加 -pthread 编译标志
+exec g++ -pthread "$@"
